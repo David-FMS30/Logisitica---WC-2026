@@ -54,23 +54,36 @@ Se você deseja explorar o código, clonar o repositório ou executar o dashboar
 
 ```bash
 git clone https://github.com/David-FMS30/Logisitica---WC-2026.git
+```
 
-Bash
+### 2. Acesse a pasta do projeto
 
+```bash
 cd Logisitica---WC-2026
-Instale as dependências:
-(Recomenda-se o uso de um ambiente virtual)
+```
 
-Bash
+### 3. Instale as dependências
 
+Recomenda-se o uso de um ambiente virtual para evitar conflitos entre bibliotecas.
+
+```bash
 pip install -r requirements.txt
-Execute a aplicação:
+```
 
-Bash
+### 4. Execute a aplicação
 
+```bash
 streamlit run app.py
+```
 
-```markdown
+Após executar o comando, o Streamlit abrirá o dashboard no navegador. Caso isso não aconteça automaticamente, acesse o endereço exibido no terminal, geralmente:
+
+```text
+http://localhost:8501
+```
+
+---
+
 ## 📁 Estrutura do Repositório
 
 A estrutura principal do projeto está organizada da seguinte forma:
@@ -84,4 +97,14 @@ Logisitica---WC-2026/
 │
 └── data/
     └── Bases de dados utilizadas no projeto
+```
+
+### Descrição dos Arquivos e Pastas
+
+| Arquivo/Pasta | Descrição |
+|---|---|
+| `app.py` | Arquivo principal da aplicação Streamlit, responsável por executar o dashboard. |
+| `requirements.txt` | Lista de bibliotecas necessárias para instalar e executar o projeto. |
+| `README.md` | Documentação principal do projeto. |
+| `data/` | Pasta destinada ao armazenamento das bases de dados utilizadas na análise. |
 
