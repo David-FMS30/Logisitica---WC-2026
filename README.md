@@ -52,27 +52,28 @@ Se você deseja explorar o código, clonar a base de dados ou rodar o dashboard 
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/copa-2026-logistica.git](https://github.com/SEU_USUARIO/copa-2026-logistica.git)
+   git clone [https://github.com/David-FMS30/Logisitica---WC-2026.git](https://github.com/David-FMS30/Logisitica---WC-2026.git)
+Acesse a pasta do projeto:
 
-2. Acesse a pasta do projeto:
-   
-   pip install -r requirements.txt
+Bash
 
-3.Instale as dependências:
+cd Logisitica---WC-2026
+Instale as dependências:
 (Recomenda-se o uso de um ambiente virtual)
 
-pip install -r requirements.txt
+Bash
 
-4.Execute a aplicação:
+pip install -r requirements.txt
+Execute a aplicação:
+
+Bash
 
 streamlit run app.py
-
 📂 Estrutura do Repositório
 app.py: Script monolítico contendo as regras de negócio do IFL, o carregamento dos datasets e a interface do painel web.
 
 requirements.txt: Mapeamento das bibliotecas necessárias para reprodutibilidade.
 
 data/: Diretório contendo as bases de dados da FIFA (Fixture, coordenadas de estádios, fusos horários).
-
 
 
