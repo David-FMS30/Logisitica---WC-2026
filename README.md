@@ -109,4 +109,5 @@ Logisitica---WC-2026/
 | `requirements.txt` | Lista de bibliotecas necessárias para instalar e executar o projeto. |
 | `README.md` | Documentação principal do projeto. |
 | `data/` | Pasta destinada ao armazenamento das bases de dados utilizadas na análise. |
+| `assets/` | Pasta contendo imagens do projeto. |
 
