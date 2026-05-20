@@ -1,5 +1,7 @@
 # 🏆 Copa do Mundo 2026: Análise de Desgaste Logístico
-
+<p align="center">
+  <img src="assets/intro-readme.png" alt="Imagem inicial do projeto" width="800">
+</p>
 
 🔗 **[Acesse o Dashboard Interativo Online Aqui](#)** *https://logistica-wc2026.streamlit.app/*
 
