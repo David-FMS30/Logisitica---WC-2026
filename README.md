@@ -48,12 +48,12 @@ A aplicação foi construída inteiramente em Python, com foco em uma arquitetur
 
 ## 💻 Como Rodar o Projeto Localmente
 
-Se você deseja explorar o código, clonar a base de dados ou rodar o dashboard na sua própria máquina, siga os passos abaixo:
+Se você deseja explorar o código, clonar o repositório ou executar o dashboard na sua própria máquina, siga os passos abaixo:
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/David-FMS30/Logisitica---WC-2026.git](https://github.com/David-FMS30/Logisitica---WC-2026.git)
-Acesse a pasta do projeto:
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/David-FMS30/Logisitica---WC-2026.git
 
 Bash
 
@@ -69,11 +69,19 @@ Execute a aplicação:
 Bash
 
 streamlit run app.py
-📂 Estrutura do Repositório
-app.py: Script monolítico contendo as regras de negócio do IFL, o carregamento dos datasets e a interface do painel web.
 
-requirements.txt: Mapeamento das bibliotecas necessárias para reprodutibilidade.
+```markdown
+## 📁 Estrutura do Repositório
 
-data/: Diretório contendo as bases de dados da FIFA (Fixture, coordenadas de estádios, fusos horários).
+A estrutura principal do projeto está organizada da seguinte forma:
 
+```text
+Logisitica---WC-2026/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+└── data/
+    └── Bases de dados utilizadas no projeto
 
